@@ -1,0 +1,99 @@
+.social {
+    
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.social:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.social__item--light-blue:before {
+    border-bottom: 15px solid #55acee;
+}
+
+.social__item--blue:before {
+    border-bottom: 15px solid blue;
+}
+
+.social__item--pink:before {
+    border-bottom: 15px solid pink;
+}
+
+.social__item--dark-blue:before {
+    border-bottom: 15px solid darkblue;
+}
+
+.social__item {
+    width: 55px;
+    height: 25px;
+    float: left;
+    margin:15px 0 15px 40px;
+    position: relative;
+    text-align: center;
+}
+
+.social__item--light-blue {
+    background-color: #55acee;
+}
+
+.social__item--blue {
+    background-color: blue;
+}
+
+.social__item--pink {
+    background-color: pink;
+}
+
+.social__item--dark-blue {
+    background-color: darkblue;
+}
+
+.social__item:before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 27.5px solid transparent;
+    border-right: 27.5px solid transparent;
+    
+}
+
+.social__item:after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 27.5px solid transparent;
+    border-right: 27.5px solid transparent;
+   
+}
+
+.social__item--light-blue:after {
+    border-top: 15px solid #55acee;
+}
+
+.social__item--blue:after {
+    border-top: 15px solid blue;
+}
+
+.social__item--pink:after {
+    border-top: 15px solid pink;
+}
+
+.social__item--dark-blue:after {
+    border-top: 15px solid darkblue;
+}
+.social__link {
+    color:white;
+    font-size: 22px;
+    
+}
+
